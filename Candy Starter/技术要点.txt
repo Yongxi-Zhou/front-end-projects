@@ -1,0 +1,8 @@
+1.navbar字体，hover的设计
+2.向下滑动的时候保持navbar在上面  fix-top
+3.响应式设计的navbar，和按钮
+
+4.在缩小到small的时候字体和图的顺序问题，图在上字体在下，large的时候图和字都可以互换
+
+5.container-fluid可以把图全部加载进来 100% height 
+6.字体缩小的时候不会撑到上面去
