@@ -1,0 +1,21 @@
+1.先用html，css写出六个格子的位置，并apply上不同的颜色，创建click事件并判断是否和给定的是同一颜色；
+
+2.定义选对时，所有方块都变成正确的颜色，错误的就变成背景色；
+   随机生成一个在color列表的颜色
+   正确时显示correct，改变textContent
+
+3.定义随机生成n种颜色的函数和随机生成一种颜色函数
+  如果对了，改变h1背景颜色
+
+4.reset或者new color的命令；赢了之后把按钮的字改成Play again?
+
+5.添加easy，hard button
+添加被选中时的样式classList
+
+6.css：<br>分段
+transition
+hover
+初始化margin和padding的值
+height占满100%
+display-inline-block空格占位置
+写完要加分号！！！！

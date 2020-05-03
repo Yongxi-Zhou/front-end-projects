@@ -1,0 +1,87 @@
+body{
+	background-color: #232323;
+	margin:0;
+	font-family: "Arial";
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin:0;
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-weight: 100;
+	line-height: 1.1;
+}
+
+.square{
+
+	width: 30%;
+	background-color: purple;
+	margin:1.66%;
+	padding-bottom: 30%;
+	/*相当content是一条线，给他上或下偏移30%*/
+	/*	height: 500px;*/
+	/*因为height没有高度限制，所以不能加上百分比*/
+	float: left;
+	transition: background 0.6s;
+	/*渐变效果*/
+	border-radius: 15%;
+}
+
+#container{
+	max-width: 600px;
+	margin:20px auto;
+}
+
+#message{
+	text-align: center;
+	color: steelblue;
+	width: 20%;
+	display: inline-block;
+	/*空格占位置，再加width*/
+}
+
+#reset{
+	
+}
+
+#stripe{
+	/*块级元素可以直接占满一行*/
+	background-color: white;
+	text-align: center;
+	height: 30px;
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+
+#pickColor{
+	font-size: 200%;
+}
+
+button{
+	height: 100%;
+	border:none;
+	background: none;
+	/*不是background-color*/
+
+	font-family:"Arial";
+	font-size: inherit;
+	font-weight: 700;
+	color: steelblue;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	outline: none;
+	/*去掉点击后的蓝色小框*/
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+	transition: all 0.6s;
+
+}
